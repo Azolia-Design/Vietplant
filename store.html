@@ -1,0 +1,559 @@
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Store - Vietplant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/store.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/preloader.css">
+  </head>
+  <body>
+    <div class="se-pre-con"></div>
+    <div class="grid">
+
+      <nav class="shadow-box">
+        <a href="home.html" class="brand">
+          <img src="img/logo.svg" alt="" class="img-res">
+        </a>
+        <i id="menu-toggle" class="fas fa-bars"></i>
+        <ul id="menu">
+          <hr>
+          <li><a href="store.html" class="nav-active">Store</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="cart"><a href="cart.html">Cart <span>(2)</span></a></li>
+          <li id="submenu-toggle"><i class="fas fa-ellipsis-v"></i></li>
+          <ul id="submenu-on">
+            <hr>
+            <li><a href="#"></a>My Account</li>
+            <li><a href="#"></a>Wishlist</li>
+            <li><a href="#"></a>Log out</li>
+          </ul>
+        </ul>
+
+      </nav>
+
+      <div class="store-header shadow-box">
+        <div class="overlay"></div>
+        <div class="header-text">
+          <h1>Store</h1>
+        </div>
+      </div>
+
+      <div class="store shadow-box">
+
+        <div class="title">
+          <h1 class="linebehind">
+            <span>Categories</span>
+          </h1>
+        </div>
+
+        <div class="store-category">
+          <div class="category-box shadow-md" onclick="openCity('Office')" data-aos="zoom-out-down" data-aos-delay="200">
+            <div class="overlay"></div>
+            <div class="category-text">
+              <h2>Office Plants</h2>
+              <h3>Get your new plants now!</h3>
+            </div>
+          </div>
+          <div class="category-box shadow-md" onclick="openCity('Household')" data-aos="zoom-out-down">
+            <div class="overlay"></div>
+            <div class="category-text">
+              <h2>Household Plants</h2>
+              <h3>Get your new plants now!</h3>
+            </div>
+          </div>
+          <div class="category-box shadow-md" onclick="openCity('Outdoor')" data-aos="zoom-out-down" data-aos-delay="100">
+            <div class="overlay"></div>
+            <div class="category-text">
+              <h2>Outdoor Plants</h2>
+              <h3>Get your new plants now!</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="breadcrum">
+          <h1 class="linebehind">
+            <span><a href="">Home</a>/ <a href="">Store</a>/ <a href="">Office Plants</a> </span>
+          </h1>
+        </div>
+
+        <div class="store-products">
+          <div class="store-sort">
+            <div class="sort-left">
+              <i class="fas fa-th"></i>
+              <i class="fas fa-list-ul"></i>
+              <p>Showing 1-20 of 20 results</p>
+            </div>
+            <div class="sort-right">
+              <p>Sort by: <span>Alphabetically A-Z</span><i class="fas fa-sort"></i></p>
+            </div>
+          </div>
+
+          <div id="Office" class="product-container cat-tab">
+            <a href="detail.html" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="100">
+              <img src="img/item1.png" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Zantedeschia Calla</h2>
+                <h3>$26.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm" data-aos="zoom-out-down">
+              <img src="img/item2.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Peperomia Caperata</h2>
+                <h3>$13.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm"  data-aos="zoom-out-down" data-aos-delay="200">
+              <img src="img/item3.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Maranta Leuconeura</h2>
+                <h3>$12.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="100">
+              <img src="img/item4.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Polyscias Fabia</h2>
+                <h3>$19.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm"  data-aos="zoom-out-down" data-aos-delay="200">
+              <img src="img/item5.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$11.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm" data-aos="zoom-out-down">
+              <img src="img/item6.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Sansevieria Trifasciata</h2>
+                <h3>$34.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="100">
+              <img src="img/item7.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Maidenhair Fern</h2>
+                <h3>$18.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm"  data-aos="zoom-out-down" data-aos-delay="200">
+              <img src="img/item8.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="100">
+              <img src="img/item9.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Queen Aglaonema</h2>
+                <h3>$16.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm"  data-aos="zoom-out-down" data-aos-delay="200">
+              <img src="img/item10.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Sansevieria Trifasciata</h2>
+                <h3>12.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="100">
+              <img src="img/item11.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$23.00 <span>$62.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm" data-aos="zoom-out-down">
+              <img src="img/item12.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Maranta Leuconeura</h2>
+                <h3>$18.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm"  data-aos="zoom-out-down" data-aos-delay="200">
+              <img src="img/item13.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>House Shape Close</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="100">
+              <img src="img/item14.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Revenant Cycle</h2>
+                <h3>$18.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm"  data-aos="zoom-out-down" data-aos-delay="200">
+              <img src="img/item15.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Blooming Sun</h2>
+                <h3>$28.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="100">
+              <img src="img/item16.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Rhino Horn</h2>
+                <h3>$16.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+          </div>
+
+          <div id="Household" class="product-container cat-tab" style="display:none">
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item2.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item1.png" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item3.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item4.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item5.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item6.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item7.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item8.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item9.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item10.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item11.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item12.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item13.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item14.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item15.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item16.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+          </div>
+
+          <div id="Outdoor" class="product-container cat-tab" style="display:none">
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item3.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item2.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item1.png" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item4.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item5.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item6.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item7.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item8.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item9.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item10.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item11.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item12.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item13.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item14.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item15.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+            <a href="detail.html" class="item-box shadow-sm">
+              <img src="img/item16.jpg" alt="" class="img-res">
+              <div class="item-text">
+                <h2>Mehsulun adi</h2>
+                <h3>$8.00 <span>$12.00</span></h3>
+              </div>
+            </a>
+          </div>
+
+          <div class="store-pages">
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <i class="fas fa-caret-right"></i>
+          </div>
+
+          <div class="product-filter">
+            <div class="filter-text">
+              <h2>Category</h2>
+              <ul>
+                <li>Office Plants</li>
+                <li>Household Plants</li>
+                <li>Outdoor Plants</li>
+                <li>Equipments</li>
+              </ul>
+              <hr>
+            </div>
+            <div class="filter-text">
+              <h2>Price Range</h2>
+              <ul>
+                <li>$0-100</li>
+                <li>$100-200</li>
+                <li>$200-300</li>
+                <li>$300-400</li>
+              </ul>
+              <hr>
+            </div>
+            <div class="filter-text">
+              <h2>Filter by Size</h2>
+              <ul>
+                <li>S</li>
+                <li>M</li>
+                <li>L</li>
+                <li>XL</li>
+              </ul>
+              <hr>
+            </div>
+            <div class="filter-text">
+              <h2>Filer by Color</h2>
+              <ul>
+                <li>Red</li>
+                <li>Green</li>
+                <li>Bright</li>
+                <li>Dark</li>
+              </ul>
+              <hr>
+            </div>
+            <div class="filter-text">
+              <h2>Viewed Products</h2>
+              <div class="viewed-item shadow-sm">
+                <img src="img/item1.png" alt="" class="img-res">
+                <div class="viewed-text">
+                  <h3>Mehsulun adi</h3>
+                  <h4>$8.00 <span>$12.00</span></h4>
+                </div>
+              </div>
+              <div class="viewed-item shadow-sm">
+                <img src="img/item1.png" alt="" class="img-res">
+                <div class="viewed-text">
+                  <h3>Mehsulun adi</h3>
+                  <h4>$8.00 <span>$12.00</span></h4>
+                </div>
+              </div>
+
+              <hr>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer shadow-box">
+        <div class="footer-text">
+          <div class="footer-box">
+            <img src="img/logo-footer.svg" alt="">
+            <p>Lorem ipsum dolor sit amet,<br>
+              mattis consectetuer adipiscing<br>
+              suspendisse et justo.<br>
+              Praesent mattis ugue.</p>
+          </div>
+          <div class="footer-box">
+            <h2>Open Hours</h2>
+            <p><span>Monday:</span> Closed</p>
+            <p><span>Tuesday to Friday:</span><br>
+              7:00 AM - 9:00 PM<br>
+              <span>Saturday to Sunday:</span><br>
+              11:00 AM - 10:00 PM</p>
+          </div>
+          <div class="footer-box">
+            <h2>Find Us</h2>
+            <p>SomeUnknowInfomation.</p>
+            <p>4578 Marmora Road, Glasgow 89GR<br>
+              info@vietplant.com<br>
+              1-800-1234-567<br>
+              +44 987-654-3210</p>
+          </div>
+          <div class="footer-copy">
+            <p>Copyright © 2018 Vietplant garden. | Powered by Azolia Inc. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script type="text/javascript" src="js/main.js">
+    </script>
+
+  </body>
+</html>

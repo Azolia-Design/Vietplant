@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home - Vietplant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/preloader.css">
+  </head>
+
+  <body>
+    <div class="se-pre-con"></div>
+    <div class="grid">
+
+      <nav class="shadow-box" data-aos="fade-down" data-aos-delay="600">
+        <a href="home.html" class="brand">
+          <img src="img/logo.svg" alt="" class="img-res">
+        </a>
+        <i id="menu-toggle" class="fas fa-bars"></i>
+        <ul id="menu">
+          <hr>
+          <li><a href="store.html">Store</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="cart"><a href="cart.html">Cart <span>(2)</span></a></li>
+          <li id="submenu-toggle"><i class="fas fa-ellipsis-v"></i></li>
+          <ul id="submenu-on">
+            <hr>
+            <li><a href="#"></a>My Account</li>
+            <li><a href="#"></a>Wishlist</li>
+            <li><a href="#"></a>Log out</li>
+          </ul>
+        </ul>
+
+      </nav>
+
+      <div class="header">
+
+        <div class="header-img1 header-grid shadow-box mySlides">
+          <div class="overlay"></div>
+          <div class="header-text">
+            <h4 style="color: #f3f3f3;">Thank you!</h4>
+            <h1>We've won the Best Services Award</h1>
+            <h2 style="color: #f3f3f3;">
+              We couldn't do it without you.</h2>
+            <a href="" class="button">Buy now</a>
+            <p><i class="fab fa-facebook-square"></i><i class="fab fa-instagram"></i><i class="fab fa-pinterest-square"></i><i class="fab fa-500px"></i></p>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)" onmouseover="pauseCarousel();" onmouseout="startCarousel();">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)" onmouseover="pauseCarousel();" onmouseout="startCarousel();">&#10095;</a>
+        </div>
+
+        <div class="header-img2 header-grid  shadow-box  mySlides">
+          <div class="overlay"></div>
+          <div class="header-text">
+            <h4>Current Event</h4>
+            <h1>Ever man are put down his very</h1>
+            <h2>Make your very own plant pot with us!</h2>
+            <a href="" class="button">Join now</a>
+            <p><i class="fab fa-facebook-square"></i><i class="fab fa-instagram"></i><i class="fab fa-pinterest-square"></i><i class="fab fa-500px"></i></p>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)" onmouseover="pauseCarousel();" onmouseout="startCarousel();">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)" onmouseover="pauseCarousel();" onmouseout="startCarousel();">&#10095;</a>
+        </div>
+
+        <div class="header-img3 header-grid  shadow-box  mySlides">
+          <div class="overlay"></div>
+          <div class="header-text">
+            <h4>House Plant, Office Plant</h4>
+            <h1>Hard sell it were into it upon.</h1>
+            <h2>$350.00 <span>$700.00</span></h2>
+            <a href="" class="button">Buy now</a>
+            <p><i class="fab fa-facebook-square"></i><i class="fab fa-instagram"></i><i class="fab fa-pinterest-square"></i><i class="fab fa-500px"></i></p>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)" onmouseover="pauseCarousel();" onmouseout="startCarousel();">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)" onmouseover="pauseCarousel();" onmouseout="startCarousel();">&#10095;</a>
+        </div>
+
+
+        <div class="dot-box">
+          <span class="dot" onclick="currentSlide(1)" onmouseover="pauseCarousel();" onmouseout="startCarousel();"></span>
+          <span class="dot" onclick="currentSlide(2)" onmouseover="pauseCarousel();" onmouseout="startCarousel();"></span>
+          <span class="dot" onclick="currentSlide(3)" onmouseover="pauseCarousel();" onmouseout="startCarousel();"></span>
+        </div>
+
+      </div>
+
+      <div class="feature shadow-box">
+        <div class="title">
+          <h1 class="linebehind">
+            <span>See what's new!</span>
+          </h1>
+        </div>
+        <a href="" class="box category cat1 shadow-bg">
+          <div class="overlay"></div>
+          <img src="img/text.jpg" alt="" class="img-res">
+            <div class="feature-text">
+              <h2>Featured Category</h2>
+              <h3>Get your new plants now</h3>
+            </div>
+        </a>
+        <a href="" class="box category cat2 shadow-bg" data-aos="zoom-out-down">
+          <div class="overlay"></div>
+          <img src="img/feature3.jpg" alt="" class="img-res">
+          <div class="feature-text">
+            <h2>New Arrival!</h2>
+            <h3>Get your new plants now</h3>
+          </div>
+        </a>
+        <a href="" class="box sale" data-aos="zoom-out-down">
+          <div class="sale-img shadow-sm">
+            <img src="img/sale.jpg" alt="" class="img-res">
+          </div>
+          <div class="sale-text">
+            <h2>Auctor sem</h2>
+            <h3>$8.00 <span>$12.00</span></h3>
+          </div>
+        </a>
+        <a href="" class="box sale sale1">
+          <div class="sale-img shadow-sm">
+            <img src="img/sale2.jpg" alt="" class="img-res">
+          </div>
+          <div class="sale-text">
+            <h2>Egestas dapibus</h2>
+            <h3>$8.00 <span>$12.00</span></h3>
+          </div>
+        </a>
+        <a href="" class="box sale sale2">
+          <div class="sale-img shadow-sm">
+            <img src="img/sale3.jpg" alt="" class="img-res">
+          </div>
+          <div class="sale-text">
+            <h2>Commodo dolor</h2>
+            <h3>$8.00 <span>$12.00</span></h3>
+          </div>
+        </a>
+        <a href="" class="box sale" data-aos="zoom-out-down" data-aos-delay="100">
+          <div class="sale-img shadow-sm">
+            <img src="img/sale4.jpg" alt="" class="img-res">
+          </div>
+          <div class="sale-text">
+            <h2>Ivara hema</h2>
+            <h3>$8.00 <span>$12.00</span></h3>
+          </div>
+        </a>
+
+        <div class="title">
+          <h1 class="linebehind">
+            <span>Current Events</span>
+          </h1>
+        </div>
+
+        <a href="" class="box event event1 shadow-md" data-aos="zoom-out-down">
+          <div class="overlay"></div>
+          <img src="img/event.jpg" alt="" class="img-res">
+          <div class="event-text">
+            <h2>Get a Big Deal Combo</h2>
+            <h3>Get your new plants now!</h3>
+          </div>
+        </a>
+        <a href="" class="box event event2 shadow-md" data-aos="zoom-out-down" data-aos-delay="100">
+          <div class="overlay"></div>
+          <img src="img/event2.jpg" alt="" class="img-res">
+          <div class="event-text">
+            <h2>Upcoming Events</h2>
+            <h3>Get your new plants now!</h3>
+          </div>
+        </a>
+      </div>
+
+      <div class="divine1 shadow-box">
+        <div class="overlay">
+          <div class="divine1-text">
+            <h1>Designed with our Heart, Made with <br>our Passion, Delivered to <br>Your door</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="product shadow-box">
+        <div class="title">
+          <h1 class="linebehind">
+            <span>Our Team</span>
+          </h1>
+        </div>
+
+        <div class="highlight shadow-sm" data-aos="zoom-out-down">
+          <div class="highlight-box">
+            <i class="fas fa-plane"></i>
+            <h2>Free Shipping</h2>
+            <h3>On order over $500.00</h3>
+          </div>
+          <div class="highlight-box">
+            <i class="fas fa-handshake"></i>
+            <h2>Helping Partner</h2>
+            <h3>We're on this together</h3>
+          </div>
+          <div class="highlight-box">
+            <i class="fas fa-phone"></i>
+            <h2>24/7 dedicated support</h2>
+            <h3>0123 456 789</h3>
+          </div>
+          <div class="highlight-box">
+            <i class="fas fa-undo-alt"></i>
+            <h2>Money back</h2>
+            <h3>If the item didn't suit you</h3>
+          </div>
+        </div>
+
+        <div class="title">
+          <h1 class="linebehind">
+            <span>Latest Products</span>
+          </h1>
+        </div>
+
+        <div class="items-cat">
+          <p class="clicked" onclick="openCity('All')">All product</p>
+          <p onclick="openCity('Office')">Office Plants</p>
+          <p onclick="openCity('Household')">Outdoor Plants</p>
+          <p onclick="openCity('Outdoor')">Indoor Plants</p>
+        </div>
+
+        <div id="All" class="items-latest cat-tab">
+          <a href="" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="100">
+            <img src="img/item8.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>House Shape Close</h2>
+              <h3>$80.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="200">
+            <img src="img/item3.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Zantedeschia Calla</h2>
+              <h3>$75.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="100">
+            <img src="img/item11.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Peperomia Caperata</h2>
+              <h3>$83.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm" data-aos="zoom-out-down">
+            <img src="img/item7.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Maranta Leuconeura</h2>
+              <h3>$69.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="200">
+            <img src="img/item6.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Polyscias Fabian</h2>
+              <h3>$99.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="100">
+            <img src="img/item10.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Sansevieria Trifasciata</h2>
+              <h3>$56.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm" data-aos="zoom-out-down">
+            <img src="img/item1.png" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Maidenhair Fern</h2>
+              <h3>$34.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="100">
+            <img src="img/item4.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Queen Aglaonema</h2>
+              <h3>$98.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+        </div>
+
+        <div id="Office" class="items-latest cat-tab" style="display:none">
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item11.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>House Shape Close</h2>
+              <h3>$80.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item7.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Zantedeschia Calla</h2>
+              <h3>$75.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item8.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Peperomia Caperata</h2>
+              <h3>$83.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item3.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Maranta Leuconeura</h2>
+              <h3>$69.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item1.png" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Polyscias Fabian</h2>
+              <h3>$99.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item4.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Sansevieria Trifasciata</h2>
+              <h3>$56.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item6.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Maidenhair Fern</h2>
+              <h3>$34.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item10.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Queen Aglaonema</h2>
+              <h3>$98.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+        </div>
+
+        <div id="Household" class="items-latest cat-tab" style="display:none">
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item11.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>House Shape Close</h2>
+              <h3>$80.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item8.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Zantedeschia Calla</h2>
+              <h3>$75.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item3.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Peperomia Caperata</h2>
+              <h3>$83.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item10.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Maranta Leuconeura</h2>
+              <h3>$69.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item7.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Polyscias Fabian</h2>
+              <h3>$99.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item8.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Sansevieria Trifasciata</h2>
+              <h3>$56.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item4.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Maidenhair Fern</h2>
+              <h3>$34.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item1.png" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Queen Aglaonema</h2>
+              <h3>$98.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+        </div>
+
+        <div id="Outdoor" class="items-latest cat-tab" style="display:none">
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item8.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>House Shape Close</h2>
+              <h3>$80.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item3.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Zantedeschia Calla</h2>
+              <h3>$75.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item11.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Peperomia Caperata</h2>
+              <h3>$83.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item7.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Maranta Leuconeura</h2>
+              <h3>$69.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item6.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Polyscias Fabian</h2>
+              <h3>$99.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item10.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Sansevieria Trifasciata</h2>
+              <h3>$56.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item1.png" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Maidenhair Fern</h2>
+              <h3>$34.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+          <a href="" class="item-box shadow-sm">
+            <img src="img/item4.jpg" alt="" class="img-res">
+            <div class="item-text">
+              <h2>Queen Aglaonema</h2>
+              <h3>$98.00 <span>$112.00</span></h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="btn-seemore">
+          <a href="" class="button">See more</a>
+        </div>
+
+      </div>
+
+      <div class="divine2 shadow-box">
+
+        <div class="overlay">
+          <div class="divine2-text">
+            <h1>The most important things <br>are not things so we’ll <br>design experiences.</h1>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="service shadow-box">
+
+        <div class="title">
+          <h1 class="linebehind">
+            <span>Our Services</span>
+          </h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum dolorum quidem voluptas, maiores fugiat ducimus sed adipisci ex libero.</p>
+        </div>
+
+        <div class="service-options">
+          <div class="option-box shadow-sm" data-aos="zoom-out-down" data-aos-delay="100">
+            <h2>Standard</h2>
+            <i class="fas fa-plus"></i>
+            <img src="img/option1.png" alt="">
+            <div class="option-text">
+              <h1>$39.99<span> per mo.</span></h1>
+              <ul>
+                <li><span>First</span> Feature</li>
+                <li><span>Second</span> Feature</li>
+                <li><span>Third</span> Feature</li>
+              </ul>
+            </div>
+          </div>
+          <div class="option-box option-green shadow-sm" data-aos="zoom-out-down">
+            <h2>Premium</h2>
+            <i class="fas fa-plus"></i>
+            <img src="img/option2.png" alt="">
+            <div class="option-text">
+              <h1>$79.99<span> per mo.</span></h1>
+              <ul>
+                <li><span>First</span> Feature</li>
+                <li><span>Second</span> Feature</li>
+                <li><span>Third</span> Feature</li>
+                <li><span>Fourth</span> Feature</li>
+              </ul>
+            </div>
+          </div>
+          <div class="option-box option-both shadow-sm" data-aos="zoom-out-down" data-aos-delay="200">
+            <h2>Each pack include</h2>
+            <div class="option-upper">
+              <ul>
+                <li><i class="fas fa-check"></i><span>First</span> Feature</li>
+                <li><i class="fas fa-check"></i><span>Second</span> Feature</li>
+                <li><i class="fas fa-check"></i><span>Third</span> Feature</li>
+                <li><i class="fas fa-check"></i><span>Fourth</span> Feature</li>
+                <li><i class="fas fa-check"></i><span>Fifth</span> Feature</li>
+              </ul>
+            </div>
+            <div class="option-lower">
+              <div class="author-img shadow-sm"></div>
+              <h3>Caroline Hirame</h3>
+              <h4>Founder and CEO of Vietplant garden.</h4>
+              <p>Natus error sit voluptartem
+                 accusantium doloremque
+                 laudantium, totam aperiam,
+                 eaque ipsa quae ab illo.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="subscribe">
+          <h1>Newsletter <br>
+          To get in touch</h1>
+          <input type="email" name="email" placeholder="Enter your e-mail"><br>
+          <button>subscribe</button>
+        </div>
+
+      </div>
+
+      <div class="footer shadow-box">
+        <div class="footer-text">
+          <div class="footer-box">
+            <img src="img/logo-footer.svg" alt="">
+            <p>Lorem ipsum dolor sit amet,<br>
+              mattis consectetuer adipiscing<br>
+              suspendisse et justo.<br>
+              Praesent mattis ugue.</p>
+          </div>
+          <div class="footer-box">
+            <h2>Open Hours</h2>
+            <p><span>Monday:</span> Closed</p>
+            <p><span>Tuesday to Friday:</span><br>
+              7:00 AM - 9:00 PM<br>
+              <span>Saturday to Sunday:</span><br>
+              11:00 AM - 10:00 PM</p>
+          </div>
+          <div class="footer-box">
+            <h2>Find Us</h2>
+            <p>SomeUnknowInfomation.</p>
+            <p>4578 Marmora Road, Glasgow 89GR<br>
+              info@vietplant.com<br>
+              1-800-1234-567<br>
+              +44 987-654-3210</p>
+          </div>
+          <div class="footer-copy">
+            <p>Copyright © 2018 Vietplant garden. | Powered by Azolia Inc. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script type="text/javascript" src="js/carousel.js">
+    </script>
+    <script type="text/javascript" src="js/main.js">
+    </script>
+
+
+
+
+  </body>
+</html>

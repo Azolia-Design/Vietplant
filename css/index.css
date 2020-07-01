@@ -1,0 +1,64 @@
+
+  #myVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+    transition: 200ms;
+  }
+  #myBtn {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding: 10px 42px;
+    border: none;
+    background: #4b4b4b;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    left: 40px;
+    border-radius: 25px;
+    transition: 200ms;
+  }
+  #muteToggle {
+    font-size: 18px;
+    padding: 10px 12px;
+    border: none;
+    background: #4b4b4b;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    left: 200px;
+    bottom: 20px;
+    border-radius: 25px;
+    transition: 200ms;
+  }
+
+  #skip {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding: 10px 42px;
+    border: none;
+    background: #4b4b4b;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 200ms;
+  }
+
+#myBtn:hover,#muteToggle:hover,#skip:hover {
+    background-color: #80B435;
+    color: #fff;
+}
